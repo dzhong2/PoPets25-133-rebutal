@@ -10,9 +10,9 @@ where $\mathcal{L}(\mathcal{M}(T))$ denotes the loss of target model $\mathcal{M
 In this table we present the result of TIMIA under black-box setting and white-box setting. The results are measured on Character dataset when the target model is ResNet
 
 |                   | Blackbox | Whitebox |
-|-------------------|----------|----------|
-| Attack accuracy   | 0.90     | 0.93     |
-| TPR@1%FPR         | 42.2%    | 57.40%   |
+|-------------------|----------|---------|
+| Attack accuracy   | 0.90     | 0.93    |
+| TPR@1%FPR         | 42.2%    | 57.4%   |
 
 
 From the table we observe that TIMIA under white-box setting achieves a higher attack accuracy and TPR@1%FPR. This is expected as the loss on the target sample better reflect the influence of removing reference samples,
