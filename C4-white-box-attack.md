@@ -4,9 +4,9 @@ We adapt TIMIA to white-box setting. In particular, white-box access allows the 
 on the target sample. Thus, we construct influence feature by
 
 $$
-x_I = abs(\mathcal{L}(S(T)) - \mathcal{L}(S^{-R_1}(T))) \parallel...\parallel abs(\mathcal{L}(S(T)) - \mathcal{L}(S^{-R_m}(T))) 
+x_I = abs(\mathcal{L}(\mathcal{M}(T)) - \mathcal{L}(\mathcal{M}^{-R_1}(T))) \parallel...\parallel abs(\mathcal{L}(\mathcal{M}(T)) - \mathcal{L}(\mathcal{M}^{-R_m}(T))) 
 $$
-
+where $\mathcal{L}(\mathcal{M}(T))$ denotes the loss of target model $\mathcal{M}$ on target sample $T$, $\mathcal{M}^{-R_i}$ denotes the model with reference model $R_i$ removed.
 In this table we present the result of TIMIA under black-box setting and white-box setting. The results are measured on Character dataset when the target model is ResNet
 
 |                   | Blackbox | Whitebox |
