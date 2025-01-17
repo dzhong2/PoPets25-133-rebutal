@@ -1,7 +1,7 @@
 ## Common Review 1: Additional attacks (Reviewer A & B & C)
 
-In this table we present the attack accuracy and TPR@1%FPR of the baseline attacks to be added in revision. The results are measured on Character dataset when the target model is ResNet
-
+In this table, we present the attack accuracy and TPR@1%FPR of the baseline attacks to be added in the revision.
+The results are measured on the Character dataset, with the target model being ResNet.
 
 | Attacks applied in paper | TIMIA | ML-leak [1] | Mentr [2]      |  LiRA [3]  |  RMIA [4]  |
 |--------------------------|-------|------------|------------|------------|------------|
@@ -9,7 +9,9 @@ In this table we present the attack accuracy and TPR@1%FPR of the baseline attac
 | TPR@1%FPR                | 42.2% | 3.7%       | 6.2%       | 16.5%      | 19.4%      |
 | Comment from             |  -    | Reviewer A | Reviewer A | Reviewer B | Reviewer C |
 
-From the results we observe that although the baselines can be effective in inferring the membership of the targets, TIMIA still achieves a higher performance as it is tailored for time series data.
+From the results, we observe that although the baseline attacks can effectively infer the membership of the targets,
+TIMIA achieves higher performance as it is specifically tailored for time series data.
+
 
 
 

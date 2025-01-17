@@ -1,9 +1,9 @@
 ## Common-Review-4: Attack with limited DA (Reviewer B & C)
 
-In this table we present the attack accuracy and TPR@1%FPR of TIMIA when the size of $D_A$ is small. In particular, we assure that
- $|DA|/|D_T|\in$ [1%, 2%, 3%],
-assuring that $|D_A|$ is smaller than 30. For each target we pick 6 reference samples,
-which takes 20% of $|D_A|$. The results are measured on Character dataset when the target model is ResNet
+In this table, we present the attack accuracy and TPR@1%FPR of TIMIA when the size of $D_A$ is small.
+Specifically, we ensure that $\|D_A\| / \|D_T\| \in [1%, 2%, 3%]$, with $|D_A|$ being smaller than 30.
+For each target, we select 6 reference samples, which constitute 20% of $|D_A|$. 
+The results are measured on the Character dataset, with the target model being ResNet.
 
 | $\|D_A\|/\|D_T\|$ | 1%    | 2%    | 3%    |
 |-------------------|-------|-------|-------|
@@ -11,5 +11,5 @@ which takes 20% of $|D_A|$. The results are measured on Character dataset when t
 | TPR@1%FPR         | 29.60% | 32.20% | 36.70% |
 
 
-From the results we observe that TIMIA still achieves a high performance when the size of $D_A$ is small, which is no lower than 0.86 and 29.6\% 
-in terms of attack accuracy and TPR@1\%FPR
+From the results, we observe that TIMIA still achieves high performance when the size of $D_A$ is small,
+with attack accuracy no lower than 0.86 and TPR@1%FPR no lower than 29.6%.
