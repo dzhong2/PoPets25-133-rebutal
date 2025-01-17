@@ -7,10 +7,9 @@ The results are measured on the Character dataset, with the target model being R
 |--------------------------|-------|------------|------------|------------|------------|
 | ACC                      | 0.90  | 0.59       | 0.61       | 0.65       | 0.71       |
 | TPR@1%FPR                | 42.2% | 3.7%       | 6.2%       | 16.5%      | 19.4%      |
-| Comment from             |  -    | Reviewer A | Reviewer A | Reviewer B | Reviewer C |
+| Suggested reviewer             |  -    | Reviewer A | Reviewer A | Reviewer B | Reviewer C |
 
-From the results, we observe that although the baseline attacks can effectively infer the membership of the targets,
-TIMIA achieves higher performance as it is specifically tailored for time series data.
+From the results, we observe that TIMIA achieves higher attack accuracy than the four attacks in terms of both ACC and TPR@1%FPR.
 
 
 
